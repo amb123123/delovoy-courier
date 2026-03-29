@@ -1,0 +1,28 @@
+{
+  "wallet": "E7noB4NyhAEzEqyP5VdejQP1pXoVVryy4yJo7QtfP6Ez",
+  "data_range": {
+    "oldest": "2025-02-20T16:22:24.000Z",
+    "newest": "2026-01-22T20:12:50.000Z"
+  },
+  "total_swaps_fetched": 16647,
+  "pumpfun": {
+    "total_volume_usd": 786240.5710662005,
+    "buy_volume_usd": 391478.63471098413,
+    "sell_volume_usd": 394761.93635521387,
+    "buy_count": 6145,
+    "sell_count": 5435,
+    "total_trades": 11580
+  },
+  "pumpswap": {
+    "total_volume_usd": 196036.80484745748,
+    "buy_volume_usd": 29778.91947302883,
+    "sell_volume_usd": 166257.88537442838,
+    "buy_count": 584,
+    "sell_count": 1093,
+    "total_trades": 1677
+  },
+  "combined": {
+    "total_volume_usd": 982277.375913658,
+    "total_trades": 13257
+  }
+}

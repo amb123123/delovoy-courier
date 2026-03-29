@@ -1,0 +1,24 @@
+{
+  "wallet": "E7noB4NyhAEzEqyP5VdejQP1pXoVVryy4yJo7QtfP6Ez",
+  "total_swaps_all_dex": 964,
+  "pumpfun": {
+    "total_volume_usd": 57348.427391531775,
+    "buy_volume_usd": 29195.785807285538,
+    "sell_volume_usd": 28152.641584246237,
+    "buy_count": 308,
+    "sell_count": 260,
+    "total_trades": 568
+  },
+  "pumpswap": {
+    "total_volume_usd": 62962.60997075403,
+    "buy_volume_usd": 0.0,
+    "sell_volume_usd": 62962.60997075403,
+    "buy_count": 0,
+    "sell_count": 282,
+    "total_trades": 282
+  },
+  "combined": {
+    "total_volume_usd": 120311.0373622858,
+    "total_trades": 850
+  }
+}

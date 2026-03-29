@@ -1,0 +1,190 @@
+================================================================================
+
+                    ██████╗ ██████╗  ██████╗ ██████╗ ████████╗███████╗██╗  ██╗
+                    ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██║ ██╔╝
+                    ██║  ██║██████╔╝██║   ██║██████╔╝   ██║   █████╗  █████╔╝
+                    ██║  ██║██╔══██╗██║   ██║██╔═══╝    ██║   ██╔══╝  ██╔═██╗
+                    ██████╔╝██║  ██║╚██████╔╝██║        ██║   ███████╗██║  ██╗
+                    ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝        ╚═╝   ╚══════╝╚═╝  ╚═╝
+
+                              EASTER EGGS FIELD GUIDE
+                                  11 Secrets Total
+
+================================================================================
+
+                              TABLE OF CONTENTS
+================================================================================
+
+  KEYBOARD TRIGGERS (10):
+    1.  droptek ............ Toast notification
+    2.  matrix ............. Matrix rain effect
+    3.  glitch ............. RGB glitch effect
+    4.  pump ............... Token confetti
+    5.  wagmi .............. Screen shake + WAGMI
+    6.  rave ............... Rainbow rave mode
+    7.  nyan ............... Nyan cat animation
+    8.  gm ................. Good morning
+    9.  gn ................. Good night
+    10. dev ................ Secret terminal
+
+  HIDDEN PAGES (1):
+    11. /alon .............. Secret page
+
+================================================================================
+                               EASTER EGGS
+================================================================================
+
+--------------------------------------------------------------------------------
+#1  DROPTEK
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "droptek" on your keyboard
+    EFFECT:     Toast notification: "Alon noticed. probably."
+    DURATION:   3 seconds
+
+--------------------------------------------------------------------------------
+#2  MATRIX
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "matrix" on your keyboard
+    EFFECT:     Matrix rain - green/pink characters fall across the screen
+                including "DROPTEK", "$PUMP", and Japanese characters
+    DURATION:   ~3 seconds
+
+--------------------------------------------------------------------------------
+#3  GLITCH
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "glitch" on your keyboard
+    EFFECT:     RGB chromatic aberration, hue rotation, shaking text
+    DURATION:   2 seconds
+    WARNING:    Intense visuals
+
+--------------------------------------------------------------------------------
+#4  PUMP
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "pump" on your keyboard
+    EFFECT:     Confetti rain with $PUMP tokens, coins, rockets, moons, diamonds
+    DURATION:   4 seconds
+
+--------------------------------------------------------------------------------
+#5  WAGMI
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "wagmi" on your keyboard
+    EFFECT:     Screen shakes + giant "WAGMI" flashes with neon glow
+    DURATION:   2 seconds
+
+--------------------------------------------------------------------------------
+#6  RAVE
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "rave" on your keyboard
+    EFFECT:     Rainbow hue rotation, "🎉 RAVE 🎉" on screen
+    DURATION:   4 seconds
+    WARNING:    Flashing colors
+
+--------------------------------------------------------------------------------
+#7  NYAN
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "nyan" on your keyboard
+    EFFECT:     ASCII cat flies across screen with rainbow trail
+    DURATION:   ~3 seconds
+
+--------------------------------------------------------------------------------
+#8  GM
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "gm" on your keyboard
+    EFFECT:     ☀️ sun emoji, "GM" text, orange gradient, "rise and grind"
+    DURATION:   2.5 seconds
+
+--------------------------------------------------------------------------------
+#9  GN
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "gn" on your keyboard
+    EFFECT:     🌙 moon emoji, "GN" text, purple gradient, "sweet dreams fren"
+    DURATION:   2.5 seconds
+
+--------------------------------------------------------------------------------
+#10  DEV MODE
+--------------------------------------------------------------------------------
+    TRIGGER:    Type "dev" on your keyboard
+    EFFECT:     Opens interactive terminal (dev_mode.exe)
+
+    TERMINAL COMMANDS:
+      help     - list commands
+      stats    - degen stats
+      secrets  - list all easter eggs
+      alon     - ???
+      gm/gn    - greetings
+      wagmi    - WAGMI
+      ngmi     - ngmi
+      wen      - wen moon
+      moon     - to the moon
+      rugged   - rug check
+      sudo     - nice try
+      hack     - access denied
+      ls       - list files
+      whoami   - who are you
+      echo X   - echo text
+      clear    - clear screen
+      exit     - close terminal
+
+    EXIT:       Click X, click outside, press Escape, or type "exit"
+
+--------------------------------------------------------------------------------
+#11  /ALON (Hidden Page)
+--------------------------------------------------------------------------------
+    URL:        /alon
+    FEATURES:
+      - ASCII "DROPTEK" logo
+      - Random message of the day
+      - Visitor counter (session storage)
+      - Stats panel
+      - Terminal log with message to Alon
+      - Full easter egg cheat sheet
+      - Clickable title triggers glitch
+
+================================================================================
+                              HINT LOCATIONS
+================================================================================
+
+Users can discover easter eggs through these hints:
+
+1. FOOTER [?] BUTTON
+   - Click the [?] in the footer to cycle through hint messages
+   - Each hint cryptically references one easter egg
+
+2. LANDING PAGE (HIDDEN TEXT)
+   - At the bottom of the landing page, barely visible text lists all triggers
+   - Hover to make it slightly more visible
+   - Color: zinc-900 (nearly invisible on zinc-950 background)
+
+3. /ALON PAGE
+   - Full cheat sheet displayed in a window-card
+   - Only accessible if you know the URL
+
+4. DEV TERMINAL
+   - Type "secrets" to see the full list
+
+================================================================================
+                            KEYBOARD CHEAT SHEET
+================================================================================
+
+    ╔═══════════════════════════════════════════════════════════════════════╗
+    ║  droptek ............ "Alon noticed. probably."                       ║
+    ║  matrix ............. Matrix rain                                     ║
+    ║  glitch ............. RGB glitch                                      ║
+    ║  pump ............... Token confetti                                  ║
+    ║  wagmi .............. Screen shake + WAGMI                            ║
+    ║  rave ............... Rainbow rave mode                               ║
+    ║  nyan ............... Nyan cat                                        ║
+    ║  gm ................. Good morning ☀️                                 ║
+    ║  gn ................. Good night 🌙                                   ║
+    ║  dev ................ Secret terminal                                 ║
+    ╚═══════════════════════════════════════════════════════════════════════╝
+
+    HIDDEN PAGE: /alon
+
+================================================================================
+
+                         TOTAL EASTER EGGS: 11
+
+                      "not affiliated. just obsessed."
+
+================================================================================
