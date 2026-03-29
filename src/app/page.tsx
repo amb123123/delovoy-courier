@@ -1,6 +1,6 @@
 import { NewsCard } from '@/components/news/NewsCard'
 import { Sidebar } from '@/components/news/Sidebar'
-import { getMainArticle, getLatestArticles, articles, breakingNews } from '@/lib/news-data'
+import { getMainArticle, getLatestArticles, visibleArticles as articles, breakingNews } from '@/lib/news-data'
 
 export default function HomePage() {
   const mainArticle = getMainArticle()

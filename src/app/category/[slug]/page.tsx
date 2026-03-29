@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { categories, getArticlesByCategory, articles } from '@/lib/news-data'
+import { categories, getArticlesByCategory, visibleArticles as articles } from '@/lib/news-data'
 import { NewsCard } from '@/components/news/NewsCard'
 import { Sidebar } from '@/components/news/Sidebar'
 

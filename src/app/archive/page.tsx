@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { articles } from '@/lib/news-data'
+import { visibleArticles as articles } from '@/lib/news-data'
 import { NewsCard } from '@/components/news/NewsCard'
 
 export const metadata: Metadata = {

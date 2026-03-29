@@ -21,6 +21,7 @@ export interface Article {
   richBody?: ContentBlock[]
   isMain?: boolean
   isBreaking?: boolean
+  hidden?: boolean
 }
 
 export interface Opinion {
@@ -59,10 +60,10 @@ export const opinions: Opinion[] = [
 ]
 
 export const breakingNews = [
-  'В сеть попал список из 50 участников закрытых вечеринок «Радуга» — среди имён представители бизнеса и госсектора',
   'ЦБ РФ сохранил ключевую ставку на уровне 21% годовых — решение совпало с ожиданиями аналитиков',
   'Индекс МосБиржи превысил 3200 пунктов впервые с октября 2024 года',
   'Минэкономразвития повысило прогноз роста ВВП на 2026 год до 2,8%',
+  'Яндекс объявил о покупке сервиса доставки за $340 млн — сделка закроется в третьем квартале',
 ]
 
 export const articles: Article[] = [
@@ -161,6 +162,7 @@ export const articles: Article[] = [
       { type: 'paragraph', text: 'Пока подобные вечеринки продолжают существовать, дискуссия вокруг них будет неизбежно выходить за рамки фактов — в область оценок, интерпретаций и представлений о допустимом. И каждая новая утечка будет снова и снова ставить один и тот же вопрос: имеет ли общество право знать — или обязано отвернуться.' },
     ],
     isMain: true,
+    hidden: true,
   },
   {
     slug: 'minekonomrazvitiya-povysilo-prognoz-vvp',
@@ -362,18 +364,20 @@ export const articles: Article[] = [
   },
 ]
 
+export const visibleArticles = articles.filter((a) => !a.hidden)
+
 export function getArticleBySlug(slug: string): Article | undefined {
-  return articles.find((a) => a.slug === slug)
+  return visibleArticles.find((a) => a.slug === slug)
 }
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
-  return articles.filter((a) => a.categorySlug === categorySlug)
+  return visibleArticles.filter((a) => a.categorySlug === categorySlug)
 }
 
 export function getMainArticle(): Article {
-  return articles.find((a) => a.isMain) || articles[0]
+  return visibleArticles.find((a) => a.isMain) || visibleArticles[0]
 }
 
 export function getLatestArticles(count: number = 10): Article[] {
-  return articles.slice(0, count)
+  return visibleArticles.slice(0, count)
 }
